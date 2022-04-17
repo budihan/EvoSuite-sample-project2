@@ -1,3 +1,5 @@
+# Project 2: GUI for simple calculator
+
 # Calculator App
 A very basic calculator application created with Java **Swing**. 
 

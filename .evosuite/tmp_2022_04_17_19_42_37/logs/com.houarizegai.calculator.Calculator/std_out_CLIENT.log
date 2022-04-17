@@ -1,0 +1,78 @@
+* Starting client
+* Connecting to master process on port 12281
+* Analyzing classpath: 
+  - C:\Users\budi.han\Documents\repos\Calculator\target\test-classes
+  - C:\Users\budi.han\Documents\repos\Calculator\target\classes
+  - C:\Users\budi.han\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar
+  - C:\Users\budi.han\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar
+  - C:\Users\budi.han\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar
+  - C:\Users\budi.han\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.houarizegai.calculator.Calculator
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 19:42:43.350 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\budi.han\Documents\repos\Calculator\.evosuite\evosuite-seeds\com.houarizegai.calculator.Calculator.seed
+* Loaded 0 tests from C:\Users\budi.han\Documents\repos\Calculator\.evosuite\evosuite-seeds\com.houarizegai.calculator.Calculator.seed
+* Total number of test goals: 
+  - Line 82
+  - Branch 19
+  - Exception 0
+  - MutationFactory 243
+  - Output 3
+  - Method 3
+  - MethodNoException 3
+  - CBranchFitnessFactory 19
+* Using seed 1650217360529
+* Starting evolution
+* Search finished after 66s and 2339 generations, 98526 statements, best individual has fitness: 329.3198198198198
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 11%
+* Total number of goals: 82
+* Number of covered goals: 9
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 11%
+* Total number of goals: 19
+* Number of covered goals: 2
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 0%
+* Total number of goals: 243
+* Number of covered goals: 0
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 0%
+* Total number of goals: 3
+* Number of covered goals: 0
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 67%
+* Total number of goals: 3
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 0%
+* Total number of goals: 3
+* Number of covered goals: 0
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 11%
+* Total number of goals: 19
+* Number of covered goals: 2
+* Generated 2 tests with total length 3
+* Resulting test suite's coverage: 25% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+* Writing JUnit test case 'Calculator_ESTest' to C:\Users\budi.han\Documents\repos\Calculator\.evosuite\tmp_2022_04_17_19_42_37\tests
+* Done!
+

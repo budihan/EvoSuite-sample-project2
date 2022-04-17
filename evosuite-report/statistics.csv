@@ -1,0 +1,5 @@
+TARGET_CLASS,criterion,Coverage,MutationScore
+com.houarizegai.calculator.Calculator,LINE,0.10975609756097561,0.0
+com.houarizegai.calculator.Calculator,BRANCH,0.10526315789473684,0.0
+com.houarizegai.calculator.Calculator,WEAKMUTATION,0.0,0.0
+com.houarizegai.calculator.Calculator,BRANCH,0.10526315789473684,0.0
